@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #08208a;
+    --secondary-color: #c77416;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color:var(--secondary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+header {
+    padding: 20px 20px;
+    background-color: #080707;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px;
+}
+
+header nav ul li a:hover {
+    background: #9711cc;
+    color: var(--primary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* HEADER / NAVBAR STYLES END */
+
+
+
+/* STYLE ALL SECTION TAGS */
+section {
+    padding: 60px;
+}
+
+/* HERO STYLES START */
+.hero {
+    background-image: url(../images/golden.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;    
+}
+
+.about {
+    background-image: url(../images/Evan.JPG);
+    background-size: cover;
+    padding: 200px;
+    width: 120px;
+    color: #080707;
+}
